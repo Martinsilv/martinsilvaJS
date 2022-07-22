@@ -1,24 +1,16 @@
-let primerParcial = prompt("ingresa la nota de tu primer parcial")
-let segundoParcial = prompt("ingresa la nota de tu segundo parcial")
-let tercerParcial = prompt("ingresa la nota de tu tercer parcial")
-
-function calculaNotas  (primerParcial, segundoParcial, tercerParcial){
-
-return (primerParcial + segundoParcial + tercerParcial)/3
-}
-
-let promedioNotas = calculaNotas(primerParcial, segundoParcial, tercerParcial);
-
-if(promedioNotas >= 7){
-    alert("Tu nota final es:" + promedioNotas + "felicitaciones! Aprobaste c:")
+function Productos(codigoProductos, detalleProductos, costoProductos, stockProductos){
+this.codigo = codigoProductos;
+this.detalle = detalleProductos;
+this.costo = costoProductos;
+this.stock = stockProductos;
 
 }
+ 
+let remeraHombre = new Productos(000, "remera0 para Hombre", 900, 20);
+let remeraMujer = new Productos(111, "remera para Mujer",1500, 5);
+let camperaHombre = new Productos(222, "campera para Hombre",4000, 6);
+let camperaMujer = new Productos(333, "campera para Mujer", 3500,10);
+let camisetaFutbol = new Productos(444, "camiseta de futbol", 7000, 12);
+let camisetaFutbolchicos = new Productos(555, "camiseta de futbol para chicos", 3000, 8);
 
-else if ((promedioNotas >= 4) && (promedioNotas < 7)){
-    alert("Tu nota funal es:" + promedioNotas + "Estas aprobado, pero rendis final")
-
-}
-else {
-    alert ("Tu nota final es:" + promedioNotas + "desaprobaste, recursas la materia :c")
-
-}
+const todosLosProductos = [remeraHombre, remeraMujer, camperaHombre, camperaMujer, camisetaFutbol, camisetaFutbolchicos];
