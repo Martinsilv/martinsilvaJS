@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 150,
+      "id": 1,
+      "nombre": "Jordan Air 1",
+      "imagen": "./images/air-jordan-1-mid-zapatillas.jpg"
+    },
+    {
+      "precio":170,
+      "id": 2,
+      "nombre": "Jordan Air",
+      "imagen": "./images/jordan-1rojo.jpg"
+    },
+    {
+      "precio":100,
+      "id": 3,
+      "nombre": "Nike air max 97",
+      "imagen": "./images/nike-airmax97.jpg"
+    },
+    {
+      "precio": 120,
+      "id": 4,
+      "nombre": "Nike air force 1",
+      "imagen": "./images/nike-airforce1-qs.jpg"
+    },
+    {
+      "precio": 200,
+      "id": 5,
+      "nombre": "Jordan retro",
+      "imagen": "./images/jordan-retro.jpg"
+    },
+    {
+      "precio": 100,
+      "id": 6,
+      "nombre": "Nike air force 1",
+      "imagen": "./images/nie-airforce1.jpg"
+    }
+  ]
